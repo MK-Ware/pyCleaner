@@ -1,6 +1,10 @@
 # pyCleaner
 Securely wipe files or folders and clean duplicated files
 
+# Screenshots
+[![py_Cleaner_1.jpg](https://s14.postimg.org/3qc5zmudt/py_Cleaner_1.jpg)](https://postimg.org/image/k1c9vy6vh/)
+<br />
+[![py_Cleaner2_1.jpg](https://s14.postimg.org/79y3phmtt/py_Cleaner2_1.jpg)](https://postimg.org/image/fs7jtttcd/)
 
 # Features
 - Simple, user friendly GUI
