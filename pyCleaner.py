@@ -24,7 +24,7 @@ if hasattr(sys, "_MEIPASS"):
 
 import GUI_support
 
-def wipeFile(f, passes=2):
+def wipeFile(f, passes=30):
     if not os.path.isfile(f):
         return "Could not find the specified file!"
     with open(f, "ba+") as f2w:
