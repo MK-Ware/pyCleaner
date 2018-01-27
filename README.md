@@ -7,14 +7,14 @@ Securely wipe files or folders and clean duplicated files
 [![py_Cleaner2_1.jpg](https://s14.postimg.org/79y3phmtt/py_Cleaner2_1.jpg)](https://postimg.org/image/fs7jtttcd/)
 
 # Features
-- Simple, user friendly GUI
-- Cross platform
-- Secure file deletion with 2 passes
-- Scan directories or whole drivers for duplicated files
+- Simple, user friendly GUI.
+- Cross platform.
+- Secure file deletion with 2 passes.
+- Scan directories or whole drivers for duplicated files.
 - Choice between secure wiping or normal deletion for dealing with duplicated files.
-- Uses md5 hashing and file size to detect duplicate files
-- No realistic chance of false positives (see below)
-- Available as a pre compiled Windows binary or a Python script (for Linux)
+- Uses md5 hashing and file size to detect duplicate files.
+- No realistic chance of false positives (see below).
+- Available as a pre compiled Windows binary, or a Python script for Linux in the releases tab.
 
 # Is it possible for the program to make false detections?
 Short answer: No.
