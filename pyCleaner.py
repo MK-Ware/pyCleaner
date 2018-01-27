@@ -232,7 +232,7 @@ class PySecuWipe:
         self.TEntry1.place(relx=0.3, rely=0.19, relheight=0.05, relwidth=0.29)
         self.TEntry1.configure(width=156)
         self.TEntry1.configure(takefocus="")
-        self.TEntry1.configure(cursor="ibeam")
+        #self.TEntry1.configure(cursor="ibeam")
 
         self.check_button_state = BooleanVar(root)
         self.check_button_state.set(False)
