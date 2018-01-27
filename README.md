@@ -13,4 +13,6 @@ Securely wipe files or folders and clean duplicated files
 - Available as a pre compiled Windows binary or a Python script (for Linux)
 
 # Is it possible for the program to make false detections?
-The program uses md5 hashing with file size checking to detect duplicated files. What are the odds of 2 different files of different sizes generating the same md5 hash code? Negligibly small! md5 is a 128-bit hash, so the odds of 2 different files generating identical md5 sums are 1 / 2^128.. That's 1 / 340282366920938463463374607431768211456. In other words, you'd need to have 2^64 files on your computer before there's a 10% chance. Even if those were 1KB text files they would require 16384 Exabytes of storage capacity. In short, it isn't happening.
+Short answer: No.
+
+Long version: The program uses md5 hashing with file size checking to detect duplicated files. What are the odds of 2 different files of different sizes generating the same md5 hash code? Negligibly small! md5 is a 128-bit hash, so the odds of 2 different files generating identical md5 sums are 1 / 2^128.. That's 1 / 340282366920938463463374607431768211456. In other words, you'd need to have 2^64 files on your computer before there's a 10% chance. Even if those were 1KB text files they would require 16384 Exabytes of storage capacity. In short, it isn't happening.
